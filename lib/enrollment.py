@@ -14,6 +14,10 @@ class Student:
 
     def get_enrollments(self):
         return self._enrollments.copy()
+Student.name = 'Abdul'
+Student._enrollments = 'English'
+print(Student.name, Student._enrollments)
+      
 
 class Course:
     def __init__(self, title):
